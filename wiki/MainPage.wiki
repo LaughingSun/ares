@@ -2,6 +2,9 @@
 
 = Introduction =
 
+ * VideoBlog
+ * Architecture
+
 *todo*
 
 = Architecture =
