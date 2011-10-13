@@ -1,3 +1,5 @@
+#summary AresEd manual for users
+
 == List of keys and bindings ==
 
 Mouse:
