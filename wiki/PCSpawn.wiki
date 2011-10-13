@@ -1,0 +1,15 @@
+#summary Spawn Property Class
+
+= Introduction =
+
+ * Manages spawning point for creatures and other objects
+ * _pclogic.spawn_
+ * _iPcSpawn_
+
+= Details =
+
+The spawning property class can be used to define spawning points for creatures or other objects. It has the following features:
+
+ * Support for multiple spawning points and random or sequential selection of those points.
+ * Support for keeping track of the spawned entity and respawning as soon as that spawned entity is removed/destroyed.
+ * Support for spawning multiple entities (upto some limit) in addition to keeping track of them.
