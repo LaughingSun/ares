@@ -17,3 +17,4 @@ Note: the links that are marked 'slightly outdated' are still relevant and usefu
  * [Todo Highlevel Todo]
  * [DetailedTodo Detailed Todo (slightly outdated)]
  * [TechDoc Technical Documentation (slightly outdated)]
+ * [AresEdManual AresEd User Manual (slightly outdated)]
