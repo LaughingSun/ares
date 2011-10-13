@@ -1,0 +1,5 @@
+= Architecture =
+
+This graph gives a high-level description of how CS, CEL and Ares work together:
+
+http://ares.googlecode.com/svn/wiki/CELAresArchitecture.png
