@@ -29,6 +29,16 @@ In this section I explain the various bits of data and assets that are used and/
  * River (''data/river.zip''): this is the river mesh and is included by the landscape above. This will go away as well.
  * Test World (''data/saves/testworld''): this is the current standard test world as it was made by AresEd and saved. This file is input to the DynWorld plugin and defines the actual world as it was created by the user of AresEd. This file is likely to be expanded a lot when new features are added to AresEd. In the future it will also refer to the loaded assets so that many of the files above can be obsoleted.
 
+== Property Classes ==
+
+Here is a list of property classes in CEL that are potentially useful for defining Ares objects. There are many more property classes but the ones listed here are certainly useful for this project:
+
+ * [PCInventory Inventory Property Class]: manages the inventory of the player and other containers.
+ * [PCSpawn Spawn Property Class]: define a spawning point for new entities.
+ * [PCQuest Quest Property Class]: associates a quest with a given entity.
+ * [PCWire Wire Property Class]: allows _wiring_ messages from one source to some target.
+ * [PCProperties Properties Property Class]: property class holding general variables and attributes.
+
 == Various ==
 
  * [AresTechNPC NPC Structuring]
