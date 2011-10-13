@@ -1,3 +1,5 @@
+#summary Technical documentation on Ares and related
+
 == Where? ==
 
 The source code of Ares is located at [http://code.google.com/p/ares/]
