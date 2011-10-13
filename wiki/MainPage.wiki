@@ -1,8 +1,11 @@
 #summary Main page for Ares Information.
 
-= Introduction =
+= Contents =
+
+Note: the links that are marked 'slightly outdated' are still relevant and useful. They were not recently updated however and may contain information that is slightly wrong.
 
  * [VideoBlog Ares Video Blog]
  * [Architecture CS/CEL/Architecture Discussion]
  * [Todo Highlevel Todo]
  * [DetailedTodo Detailed Todo (slightly outdated)]
+ * [TechDoc Technical Documentation (slightly outdated)]
