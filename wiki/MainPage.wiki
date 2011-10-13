@@ -14,6 +14,7 @@ Note: the links that are marked 'slightly outdated' are still relevant and usefu
 
  * [VideoBlog Ares Video Blog]
  * [Architecture CS/CEL/Architecture Discussion]
+ * [AresBuilding How to build Ares]
  * [Todo Highlevel Todo]
  * [DetailedTodo Detailed Todo (slightly outdated)]
  * [TechDoc Technical Documentation (slightly outdated)]
