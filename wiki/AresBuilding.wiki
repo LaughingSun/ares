@@ -1,3 +1,5 @@
+#summary Getting Ares from SVN and compiling the source
+
 == How to build Ares ==
 
 Ares depends on Crystal Space and Crystal Entity Layer so you need to build those too. The instructions in this page assume you are using gcc (either with MingW ([http://www.mingw.org/]) on Windows or regular gcc on Linux).
