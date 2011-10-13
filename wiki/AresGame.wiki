@@ -1,3 +1,5 @@
+# Explanation of the actual Project Ares game
+
 The Ares Project is the name for the actual game demo which we're going to make based on the tools above. Here is the story:
 
 In 2027 the world was attacked by surprise by an alien force. Many cities were wiped out and as a result large parts of the world have become uninhabitable. However, mankind strikes back. By 2027 the human race was already advanced enough to recover and effectively block further alien attacks. This is the situation in 2033 when the game starts. The war is at a stalemate and neither side can manage to get the advantage over the other. The player has to alter the balance so that the human race just gets that little edge over the aliens to be able to counter the invastion.
