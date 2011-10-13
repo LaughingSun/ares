@@ -2,11 +2,6 @@
 
 = Introduction =
 
- * VideoBlog
- * Architecture
-
-*todo*
-
-= Architecture =
-
-http://ares.googlecode.com/svn/wiki/CELAresArchitecture.png
+ * [VideoBlog Ares Video Blog]
+ * [Architecture CS/CEL/Architecture Discussion]
+ * [Todo]
