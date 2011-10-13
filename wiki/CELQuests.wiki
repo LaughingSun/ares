@@ -1,0 +1,26 @@
+#summary The CEL Quest System
+
+= Introduction =
+
+CEL has a powerful quest system. A quest is basically a state machine which can jump from one state to the other when certain things happen.
+
+= Details =
+
+The basic structure of a quest is that it has a number of states. Every state then has a number of triggers. When a trigger fires it will execute a number of rewards.
+
+In addition a quest also supports sequences which are timed operations that can be used for animation. Some examples of useful sequences are: opening doors, glowing lights, moving platforms, ...
+
+A few example triggers:
+
+ * _message_: a message is received from some source. You can specify the id mask of the messages you want to listen too.
+ * _sequencefinish_: a sequence finishes executing.
+ * _timeout_: a certain time has elapsed.
+ * ...
+
+A few example rewards:
+
+ * _debugprint_: for debugging. Print out a message on the console.
+ * _changeproperty_: change a property of an entity.
+ * _sequence_: start an animation sequence.
+ * _newstate_: switch to a new state.
+ * ...
