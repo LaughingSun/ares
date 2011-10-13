@@ -1,3 +1,5 @@
+#summary Video blog for Ares development
+
 = Video Blog =
 
 == 11 April 2011 ==
