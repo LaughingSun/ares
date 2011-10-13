@@ -1,5 +1,13 @@
 #summary Main page for Ares Information.
 
+= Introduction =
+
+The goal of Project Ares is to make three things:
+
+ * AresEd: A world editor specific for Ares (can't be used as a generic world editor for other CS apps) in which you can make a game world and define the game logic.
+ * A game player that can play games created by the editor.
+ * An actual game that uses this technology.
+
 = Contents =
 
 Note: the links that are marked 'slightly outdated' are still relevant and useful. They were not recently updated however and may contain information that is slightly wrong.
