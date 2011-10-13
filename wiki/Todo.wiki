@@ -1,3 +1,5 @@
+#summary High-level todo, look at this if you're looking for work
+
 = Todo =
 
 Big todo items for CEL/Ares which can easily be done independently from other work:
