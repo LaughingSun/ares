@@ -1,0 +1,13 @@
+= Video Blog =
+
+== 11 April 2011 ==
+
+In this video we demonstrate the basic functionality of the AresEd game editor. This is obviously work in progress and the video was also made using a video camera. So not very high quality.
+
+<wiki:video url="http://www.youtube.com/watch?v=d3wlNbHheY4"/>
+
+== 12 October 2011 ==
+
+This video is more technical and demonstrates how CEL supports lots of entities (about 10 million) with clever bookkeeping and managing of (modified) state.
+
+<wiki:video url="http://www.youtube.com/watch?v=0H6UnKwuzAM"/>
