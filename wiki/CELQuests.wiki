@@ -15,6 +15,10 @@ A few example triggers:
  * _message_: a message is received from some source. You can specify the id mask of the messages you want to listen too.
  * _sequencefinish_: a sequence finishes executing.
  * _timeout_: a certain time has elapsed.
+ * _meshsel_: a mesh was selected with the mouse.
+ * _inventory_: something happened on an inventory.
+ * _propertychange_: a property changes.
+ * _watch_: wait until a certain entity comes in range.
  * ...
 
 A few example rewards:
@@ -22,5 +26,8 @@ A few example rewards:
  * _debugprint_: for debugging. Print out a message on the console.
  * _changeproperty_: change a property of an entity.
  * _sequence_: start an animation sequence.
+ * _createentity_: create a new entity.
+ * _destroyentity_: destroy an entity.
+ * _inventory_: manipulate an inventory.
  * _newstate_: switch to a new state.
  * ...
