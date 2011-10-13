@@ -1,3 +1,4 @@
+#summary Information and diagrams about the architecture of CS, CEL, and Ares
 = Architecture =
 
 This graph gives a high-level description of how CS, CEL and Ares work together:
