@@ -28,7 +28,7 @@ In addition to entities and property classes there are also other plugins:
  * [ELCM]: this is the Entity Life Cycle Manager. It keeps track of which entities are active and which entities can be 'swapped out' because they haven't been touched in a while. This is an important tool to work with very big worlds.
  * DynWorld: this plugin adds the notion of a big dynamic world to CEL. It has the notion of 'cells' (rooms) and allows for a huge number of objects. The second video blog was a demonstration of this plugin (together with the [ELCM] plugin).
  * [LootGenerator Loot Generator]: the loot generator works together with the inventory property class. You can define loot packages to randomly generate loot in some inventory depending on various factors (like for example, the level of the player, the time of the day, ...)
- * [CELQuest Quest System]: CEL has a powerful quest system. Quests are very general state machines that can be used for simple tasks (like making a glowing cube or a door that you can open and close) but also for big quests that you can see in typical role playing games.
+ * [CELQuests Quest System]: CEL has a powerful quest system. Quests are very general state machines that can be used for simple tasks (like making a glowing cube or a door that you can open and close) but also for big quests that you can see in typical role playing games.
  * [BehaviourTrees Behaviour Trees]: these can be used for defining the AI of NPCs.
 
 Finally there is Ares and AresEd which will use the above technology.
