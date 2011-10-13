@@ -1,0 +1,5 @@
+#summary Entity templates
+
+= Introduction =
+
+Entity templates are blue-prints for creating entities. They are a very important thing in CEL and Ares because most property classes and plugins (like the inventory, the loot generator, the spawning property class, the dynamic world plugin, ...) work with entity templates from which they will create the actual entities.
