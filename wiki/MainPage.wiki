@@ -4,4 +4,5 @@
 
  * [VideoBlog Ares Video Blog]
  * [Architecture CS/CEL/Architecture Discussion]
- * [Todo]
+ * [Todo Highlevel Todo]
+ * [DetailedTodo Detailed Todo (slightly outdated)]
