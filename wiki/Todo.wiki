@@ -1,0 +1,11 @@
+= Todo =
+
+Big todo items for CEL/Ares which can easily be done independently from other work:
+
+ * [AresTaskMovement CEL/Ares Movement System]: investigate which property classes in CEL are most useful for getting the movement system and camera to work nicely (both first person and third person view) and if needed fix issues and problems that may come up.
+ * [AresTaskAnimation Animation for NPCs and actor]: think about the animation system in CS/CEL and how this can be most effectively used by Ares. See what solutions are already present and how to actually make them usable for us. Integrating proper animation with the movement system (touches the todo above).
+ * [AresTaskWX Convert the CEGUI user interface in AresEd to WX]: (optionally do this with the CSEditor framework but I think just doing the migration to WX without CSEditor would already be a great step in the right direction).
+ * [AresTaskWeather Work on the weather system in Ares]: Investigate shaders and see how we can do nice transitions between various weather types like sunny, cloudy, raining, fog, thunderstorm, ...
+ * [AresTaskMusicSound Work on a music/sound system for Ares/CEL]: See what CEL has already to offer in this area and think about it's usability and how it can be improved.
+ * [AresTaskNPCAI Work on NPC AI]: Study the behaviour tree system in CEL and see how we can use it for Ares.
+ * [AresTaskWeaponSystem Work on a flexible weapon system for CEL/Ares]: Weapons like swords, axes, guns, bows, ... See what is already there in CEL to support projectile movement and see how it can be improved.
