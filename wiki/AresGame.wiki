@@ -17,7 +17,7 @@ Mind you, I don't just want a simple FPS shooter. I'm thinking more along the li
 
 Note, this is just an idea. I'm open to other suggestions as well.
 
-_[kickvb: the biggest problem for a game is its assets: coding is a small part of the job when compared to the artistic work needed (meshes, sounds, animations, textures, etc). This constraint can lead the choice of the game: either use assets you already have (eg from YoFrankie) or choose a game where assets are less needed, eg by having the users creating part of the content. I have an old idea that never get out of my head of doing a Supreme Commander-like with customizable robots: you define robot bricks (motors, body, weapons) and the user combine them to build robots.]_
+_(kickvb: the biggest problem for a game is its assets: coding is a small part of the job when compared to the artistic work needed (meshes, sounds, animations, textures, etc). This constraint can lead the choice of the game: either use assets you already have (eg from YoFrankie) or choose a game where assets are less needed, eg by having the users creating part of the content. I have an old idea that never get out of my head of doing a Supreme Commander-like with customizable robots: you define robot bricks (motors, body, weapons) and the user combine them to build robots.)_
 
 
 
