@@ -1,4 +1,4 @@
-# Explanation of the actual Project Ares game
+#summary Explanation of the actual Project Ares game
 
 The Ares Project is the name for the actual game demo which we're going to make based on the tools above. Here is the story:
 
