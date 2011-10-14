@@ -66,15 +66,15 @@ Whenever the entity is activated there are three rewards to are executed:
 <addon plugin="cel.addons.questdef" >
   <quest name="watchPlayerQuest">
     <state name="init">
-    <trigger type="watch">
-      <fireon entity="$this" target="player" checktime="1000" radius="5" />
-      <reward type="message" entity="world" id="ares.messagebox">
-         <par name="message" string="You enter a very dangerous area!" />
-      </reward>
-      <reward type="newstate" state="stop" />
-    </trigger>
-  </state>
-  <state name="stop" />
+      <trigger type="watch">
+        <fireon entity="$this" target="player" checktime="1000" radius="5" />
+        <reward type="message" entity="world" id="ares.messagebox">
+          <par name="message" string="You enter a very dangerous area!" />
+        </reward>
+        <reward type="newstate" state="stop" />
+      </trigger>
+    </state>
+    <state name="stop" />
   </quest>
 </addon>
 }}}
@@ -82,3 +82,52 @@ Whenever the entity is activated there are three rewards to are executed:
 This quest has two states. In the initial state it will watch out for the player using the 'watch' trigger. It is set up in such a manner that it will look for the player once every second. If the player is closer to this entity then 5 units then the trigger will fire and the two rewards will execute:
  * First a message is sent to the Ares game logic (which is kept in the 'world' entity). This message is the 'ares.messagebox' message and when Ares receives this message it will show a message box to the user with a certain message. The message is given with the 'message' parameter for the reward.
  * Then the state is set to 'stop at which point the quest simply stops executing.
+
+== A Bigger Example: A Player Quest ==
+
+In this example I demonstrate how you could make a quest that actually operates as a quest for the player. i.e. it involves a story line quest that the player has to solve. Let's call these quests 'Story Quests' to distinguish them from the more mundane quests that are used for managing entity behaviour on a lower level. Nevertheless these quests are going to be made using the same quest system.
+
+{{{
+<addon plugin="cel.addons.questdef" >
+  <quest name="findTheSecretNote">
+
+    <state name="init">
+      <oninit>
+        <reward type="message" id="ares.logentry">
+          <par name="logid" string="SECNOTE_intro" />
+          <par name="message" string="You must go find a secret note. Perhaps look in the basement?" 
+        </reward>
+        <reward type="newstate" state="watchout" />
+      </oninit>
+    </state>
+
+    <state name="watchout">
+      <trigger type="entersector">
+        <fireon entity="player" sector="cellBasement" />
+        <reward type="message" id="ares.logentry">
+          <par name="logid" string="SECNOTE_enterbasement" />
+          <par name="message" string="As you enter the basement you get the impression that there was a fight recently. Perhaps you will find a clue here?" 
+        </reward>
+        <reward type="newstate" state="watchout" />
+      </trigger>
+      <trigger type="inventory">
+        <fireon entity="player" child_entity="SecretNote" />
+        <reward type="message" id="ares.logentry">
+          <par name="logid" string="SECNOTE_gotnote" />
+          <par name="message" string="You pick up a note. This looks like the secret note you had to find." 
+        </reward>
+        <reward type="newstate" state="finish" />
+      </trigger>
+    </state>
+
+    <state name="finish">
+      <oninit>
+        <reward type="message" id="ares.finishquest">
+          <par name="quest" string="findTheSecretNote" />
+        </reward>
+      </oninit>
+    </state>
+
+  </quest>
+</addon>
+}}}
