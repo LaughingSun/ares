@@ -12,7 +12,7 @@ In XML a loot package is defined as follows:
 <addon plugin="cel.addons.lootloader">
     <package name="ores" minloot="2" maxloot="6">
         <item template="Gold" chance="0.1" minamount="1" maxamount="10" />
-        <item template="Diamond" chance="0.02" minamount="1" maxamount="5" validate="=?player.level>3/>
+        <item template="Diamond" chance="0.02" minamount="1" maxamount="5" validate="=?player.level > 3" />
         <item template="Silver" chance="0.2" minamount="1" maxamount="10" />
         <item template="Ruby" chance="0.04" minamount="1" maxamount="7" />
         <item template="Emerald" chance="0.04" minamount="1" maxamount="7" />
@@ -29,7 +29,7 @@ In addition to loot packages there are also loot selectors. A loot selector can 
 {{{
 <addon plugin="cel.addons.lootloader">
     <selector name="simpleboxloot">
-        <generator name="ores" chance="0.5" validate="=?player.level>2" />
+        <generator name="ores" chance="0.5" validate="=?player.level > 2" />
         <generator name="food" chance="1" />
     </selector>
 </addon>
