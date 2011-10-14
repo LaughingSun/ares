@@ -31,3 +31,31 @@ A few example rewards:
  * _inventory_: manipulate an inventory.
  * _newstate_: switch to a new state.
  * ...
+
+= Examples =
+
+Here we show a few quest examples.
+
+== Simple Quest ==
+
+{{{
+<addon plugin="cel.addons.questdef" >
+  <quest name="clickerObject">
+    <state name="init">
+      <trigger type="message">
+        <fireon entity="$this" mask="ares.activate" />
+        <reward type="debugprint" message="=?counter" />
+        <reward type="changeproperty" entity="$this" property="counter" diff="1" />
+        <reward type="newstate" state="init" />
+      </trigger>
+    </state>
+  </quest>
+</addon>
+}}}
+
+This is a very simple quest that just has a single state (named 'init'). This state has a single trigger that listens to a message with mask 'ares.activate'. This message will be sent by the Ares game whenever an entity is activated. The message is sent to the entity so if you attach this quest to an entity then it will know how to respond to activation.
+
+Whenever the entity is activated there are three rewards to are executed:
+ * First a message is printed on the console for debugging purposes. This message will be the value of the 'counter' attribute in the entity (the string '?counter' is an expression that evaluates the attribute 'counter' in the current entity).
+ * Secondly the 'counter' property is modified by adding 1 to it.
+ * And finally the state of the quest is reset to 'init'. This is needed because otherwise the state isn't reactivated and the quest would simply stop.
