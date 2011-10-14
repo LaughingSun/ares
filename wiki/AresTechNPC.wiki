@@ -55,6 +55,8 @@ Then make traits for a specific occupations:
     * Trait: 'Favor Human Victory'
     * AI: engage
 
+So in this example we have a human. However it is also a soldier so the default health of 100 is changed to 110.
+
  * The 'Merchant' trait:
     * Standard health: 98
     * AI: wandering
@@ -68,8 +70,6 @@ When you define an NPC you first select the base model and then you associate tr
         * Attribute name: 'Mark'
         * Attribute hair: 'Blond'
         * Attribute eyes: 'Blue'
-
-So in this example we have a human. However it is also a soldier so the default health of 100 is changed to 110.
 
 Let's make another example:
 
