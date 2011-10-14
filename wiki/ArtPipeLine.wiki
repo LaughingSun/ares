@@ -2,6 +2,12 @@
 
 = Static Models =
 
+The easiest way to make static models is using [http://www.blender3d.org Blender]. The reason is that we have very good support for exporting Blender models to Crystal Space format.
+
+If you use Blender 2.49 (or Blender < 2.5) then you should use [http://leapingcat.org/blender2crystal/index.php/Main_Page blender2crystal]. This tool is very powerful and has a lot of support for Crystal Space features.
+
+for Blender 2.5 there is a [http://wiki.peragro.org/index.php/Tools/B2.5CS new exporter] available. It is not yet as powerful as the original blender2crystal but it does the job.
+
 todo...
 
 = Animated Meshes =
