@@ -17,6 +17,7 @@ Note: the links that are marked 'slightly outdated' are still relevant and usefu
  * [AresBuilding How to build Ares]
  * [Todo Highlevel Todo]
  * [DetailedTodo Detailed Todo (slightly outdated)]
+ * [ArtPipeLine The Art Pipeline]
  * [TechDoc Technical Documentation]
  * [AresEdManual AresEd User Manual (slightly outdated)]
  * [AresGame Ares Story and Game]
