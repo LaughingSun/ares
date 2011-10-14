@@ -13,3 +13,7 @@ CEL is heavily based on a message system. Various property classes send out mess
 Messages have string identifiers. CEL messages typically start with 'cel.'.
 
 The wire property class allows an entity to listen to certain types of messages and when it receives them send out a new message. That way you can define an entity that listens to some message (like it listens to when an inventory gets some object) and then it reacts by sending out another message (like to the game to open that inventory).
+
+= Example =
+
+In the section on [EntityTemplates entity templates] you can find an example on how to use this property class.
