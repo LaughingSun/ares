@@ -93,7 +93,7 @@ In this example I demonstrate how you could make a quest that actually operates 
 
     <state name="init">
       <oninit>
-        <reward type="message" id="ares.logentry">
+        <reward type="message" entity="world" id="ares.logentry">
           <par name="logid" string="SECNOTE_intro" />
           <par name="message" string="You must go find a secret note. Perhaps look in the basement?" 
         </reward>
@@ -104,7 +104,7 @@ In this example I demonstrate how you could make a quest that actually operates 
     <state name="watchout">
       <trigger type="entersector">
         <fireon entity="player" sector="cellBasement" />
-        <reward type="message" id="ares.logentry">
+        <reward type="message" entity="world" id="ares.logentry">
           <par name="logid" string="SECNOTE_enterbasement" />
           <par name="message" string="As you enter the basement you get the impression that there was a fight recently. Perhaps you will find a clue here?" 
         </reward>
@@ -112,7 +112,7 @@ In this example I demonstrate how you could make a quest that actually operates 
       </trigger>
       <trigger type="inventory">
         <fireon entity="player" child_entity="SecretNote" />
-        <reward type="message" id="ares.logentry">
+        <reward type="message" entity="world" id="ares.logentry">
           <par name="logid" string="SECNOTE_gotnote" />
           <par name="message" string="You pick up a note. This looks like the secret note you had to find." 
         </reward>
@@ -122,12 +122,23 @@ In this example I demonstrate how you could make a quest that actually operates 
 
     <state name="finish">
       <oninit>
-        <reward type="message" id="ares.finishquest">
-          <par name="quest" string="findTheSecretNote" />
-        </reward>
+        <reward type="message" entity="world" id="ares.finishquest" />
       </oninit>
     </state>
 
   </quest>
 </addon>
 }}}
+
+This quest is a bit more complicated and it assumes that Ares has a log message system which is activated by sending a message 'ares.logentry' to the 'world' entity. Ares will add the message to the player log where all important things are logged for the player. This message also has a 'logid' parameter that should identify each log entry with a unique name so that Ares knows that a certain log entry doesn't have to be added again in case it gets the message again (why this is useful is explained below).
+
+This quest also assumes there is an 'ares.finishquest' message. When Ares gets this message it will mark the quest (and associated log entries) as finished.
+
+The quest has three states:
+ * _init_: the initial state. This state has no triggers but it has an 'oninit' block that is fired as soon as this state is entered. In the oninit block there is a reward that will send out a log entry to Ares giving some hints to the player about this quest. In this case the player gets a log entry telling him/her to go look in the basement. In addition to that the quest immediatelly switches to the 'watchout' state.
+ * _watchout_: this state is interesting as it has two triggers. This state represents the main loop of the quest. As long as the quest is active it will remain in this state. And while it is active it will constantly watch out for two conditions: as soon as the player enters the basement it will log an additional hint to the player log. And as soon as the player picks up an entity called 'SecretNote' another log entry telling the player that he picked up the secret note is added.
+ * _finish_: as soon as the player picks up the note the quest will go to this state and the quest is marked as finished.
+
+Note that it is possible that the player will enter the basement multiple times without picking up the note. Every time the 'entersector' trigger will fire. But only the first time will the player actually get a new log entry due to the unique ID.
+
+Also note that this quest is fairly robust in case (for whatever reason) the secret note happens to have moved out of the basement (perhaps another NPC picked it up and moved it elsewhere). The main 'watchout' state doesn't care if the secret note is picked up in the basement. It will work in any case. And if the player never enters the basement and manages to find the secret note elsewhere then the quest will also function correctly.
