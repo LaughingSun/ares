@@ -95,7 +95,7 @@ In this example I demonstrate how you could make a quest that actually operates 
       <oninit>
         <reward type="message" entity="world" id="ares.logentry">
           <par name="logid" string="SECNOTE_intro" />
-          <par name="message" string="You must go find a secret note. Perhaps look in the basement?" 
+          <par name="message" string="You must go find a secret note. Perhaps look in the basement?" />
         </reward>
         <reward type="newstate" state="watchout" />
       </oninit>
@@ -106,7 +106,7 @@ In this example I demonstrate how you could make a quest that actually operates 
         <fireon entity="player" sector="cellBasement" />
         <reward type="message" entity="world" id="ares.logentry">
           <par name="logid" string="SECNOTE_enterbasement" />
-          <par name="message" string="As you enter the basement you get the impression that there was a fight recently. Perhaps you will find a clue here?" 
+          <par name="message" string="As you enter the basement you get the impression that there was a fight recently. Perhaps you will find a clue here?" />
         </reward>
         <reward type="newstate" state="watchout" />
       </trigger>
@@ -114,7 +114,7 @@ In this example I demonstrate how you could make a quest that actually operates 
         <fireon entity="player" child_entity="SecretNote" />
         <reward type="message" entity="world" id="ares.logentry">
           <par name="logid" string="SECNOTE_gotnote" />
-          <par name="message" string="You pick up a note. This looks like the secret note you had to find." 
+          <par name="message" string="You pick up a note. This looks like the secret note you had to find." />
         </reward>
         <reward type="newstate" state="finish" />
       </trigger>
