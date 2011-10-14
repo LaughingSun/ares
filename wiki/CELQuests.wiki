@@ -60,6 +60,8 @@ Whenever the entity is activated there are three rewards to are executed:
  * Secondly the 'counter' property is modified by adding 1 to it.
  * And finally the state of the quest is reset to 'init'. This is needed because otherwise the state isn't reactivated and the quest would simply stop.
 
+This quest never stops. Every time the entity gets the activation message the counter will be increased.
+
 == Proximity Quest ==
 
 {{{
@@ -82,6 +84,7 @@ Whenever the entity is activated there are three rewards to are executed:
 This quest has two states. In the initial state it will watch out for the player using the 'watch' trigger. It is set up in such a manner that it will look for the player once every second. If the player is closer to this entity then 5 units then the trigger will fire and the two rewards will execute:
  * First a message is sent to the Ares game logic (which is kept in the 'world' entity). This message is the 'ares.messagebox' message and when Ares receives this message it will show a message box to the user with a certain message. The message is given with the 'message' parameter for the reward.
  * Then the state is set to 'stop at which point the quest simply stops executing.
+
 
 == A Glowing Object ==
 
@@ -118,7 +121,7 @@ This quest has two states. In the initial state it will watch out for the player
 
 This quest introduces a few new concepts:
 
-First this quest defines an 'animglow' sequence which will animate the ambient color of the mesh associated with this entity.
+First this quest defines an 'animglow' sequence which will animate the ambient color of the mesh associated with this entity. A sequence is something that keeps on executing for some time. This is in contrast with a reward that executes once, has some effect and is done.
 
 Secondly this quest also has a parameter. If an entity wants to use this quest it has to set the 'dur' parameter at the time this quest is attached to the entity. Parameters can be used anywhere in the quest. In this case we're using it to control the duration of the animation sequence for the ambient color.
 
