@@ -2,7 +2,11 @@
 
 == Where? ==
 
-The source code of Ares is located at [http://code.google.com/p/ares/]
+The source code of Ares is located at [http://code.google.com/p/ares/]. Check the [AresBuilding building page] for more information on how to compile Ares.
+
+== Architecture ==
+
+Check the Architecture page for more information about the CS/CEL/Ares architecture.
 
 == Project Structure ==
 
