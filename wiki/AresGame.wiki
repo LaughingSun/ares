@@ -19,9 +19,10 @@ There are several ways to win the game:
  * The hero can achieve a more diplomatic solution where both sides agree to cease hostilities and instead decide to share resources and technology.
  * The hero can side with the aliens and help the alien race to get domination over Earth. The hero ends up rich and in a influencial position among the alien government.
 
-= First Level =
+= Levels =
 
-The first level would be the training camp where our hero is trained as a soldier. The training is nearing its end and with a few minigames the player can choose his or her attributes. There should be a few training areas in this level and the possibility to interact with some NPC's. Some of them might give clues useful for future quest lines (i.e. there could be a spy in the camp although you wouldn't know that at first).
+ * [StoryLevelCamp Training Camp]: The first level would be the training camp where our hero is trained as a soldier. The training is nearing its end and with a few minigames the player can choose his or her attributes. There should be a few training areas in this level and the possibility to interact with some NPC's. Some of them might give clues useful for future quest lines (i.e. there could be a spy in the camp although you wouldn't know that at first).
+ * [StoryLevelCity Nearby City]: near the camp there is a small city (note, we should decide where on Earth this is taking place. I would like to use Europe as a base instead of the usual USA you have in many games).
 
 = Discussion =
 
