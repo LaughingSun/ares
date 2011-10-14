@@ -1,0 +1,17 @@
+#summary Art Pipeline
+
+= Static Models =
+
+todo...
+
+= Animated Meshes =
+
+todo...
+
+= Textures =
+
+todo...
+
+= Sound =
+
+todo...
