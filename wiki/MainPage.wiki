@@ -13,11 +13,11 @@ The goal of Project Ares is to make three things:
 Note: the links that are marked 'slightly outdated' are still relevant and useful. They were not recently updated however and may contain information that is slightly wrong.
 
  * [VideoBlog Ares Video Blog]
- * [Architecture CS/CEL/Architecture Discussion]
- * [AresBuilding How to build Ares]
+ * [AresGame Ares Story and Game]
  * [Todo Highlevel Todo]
  * [DetailedTodo Detailed Todo (slightly outdated)]
- * [ArtPipeLine The Art Pipeline]
- * [TechDoc Technical Documentation]
  * [AresEdManual AresEd User Manual (slightly outdated)]
- * [AresGame Ares Story and Game]
+ * [ArtPipeLine The Art Pipeline]
+ * [AresBuilding How to build Ares]
+ * [Architecture CS/CEL/Architecture Discussion]
+ * [TechDoc Technical Documentation]
