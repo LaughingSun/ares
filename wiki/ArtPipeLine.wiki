@@ -8,16 +8,14 @@ If you use Blender 2.49 (or Blender < 2.5) then you should use [http://leapingca
 
 for Blender 2.5 there is a [http://wiki.peragro.org/index.php/Tools/B2.5CS new exporter] available. It is not yet as powerful as the original blender2crystal but it does the job.
 
-todo...
-
 = Animated Meshes =
 
 todo...
 
 = Textures =
 
-todo...
+You can make textures in any kind of image editor. [http://www.gimp.org/ GIMP] is a good choice if you want a powerful and free Open Source image editor.
 
 = Sound =
 
-todo...
+For small sound effects we support WAV files. Music is typically done with OGG files. Crystal Space does *not* support MP3.
