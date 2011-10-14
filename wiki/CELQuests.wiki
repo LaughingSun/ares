@@ -59,3 +59,26 @@ Whenever the entity is activated there are three rewards to are executed:
  * First a message is printed on the console for debugging purposes. This message will be the value of the 'counter' attribute in the entity (the string '?counter' is an expression that evaluates the attribute 'counter' in the current entity).
  * Secondly the 'counter' property is modified by adding 1 to it.
  * And finally the state of the quest is reset to 'init'. This is needed because otherwise the state isn't reactivated and the quest would simply stop.
+
+== Proximity Quest ==
+
+{{{
+<addon plugin="cel.addons.questdef" >
+  <quest name="watchPlayerQuest">
+    <state name="init">
+    <trigger type="watch">
+      <fireon entity="$this" target="player" checktime="1000" radius="5" />
+      <reward type="message" entity="world" id="ares.messagebox">
+         <par name="message" string="You enter a very dangerous area!" />
+      </reward>
+      <reward type="newstate" state="stop" />
+    </trigger>
+  </state>
+  <state name="stop" />
+  </quest>
+</addon>
+}}}
+
+This quest has two states. In the initial state it will watch out for the player using the 'watch' trigger. It is set up in such a manner that it will look for the player once every second. If the player is closer to this entity then 5 units then the trigger will fire and the two rewards will execute:
+ * First a message is sent to the Ares game logic (which is kept in the 'world' entity). This message is the 'ares.messagebox' message and when Ares receives this message it will show a message box to the user with a certain message. The message is given with the 'message' parameter for the reward.
+ * Then the state is set to 'stop at which point the quest simply stops executing.
