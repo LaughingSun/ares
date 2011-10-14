@@ -1,5 +1,10 @@
 #summary Art Pipeline
 
+= Introduction =
+
+If you are an artist then this page is for you. In addition to the information here you can find general Crystal Space related information [http://www.crystalspace3d.org/main/Creating_Art on this page].
+
+
 = Static Models =
 
 The easiest way to make static models is using [http://www.blender3d.org Blender]. The reason is that we have very good support for exporting Blender models to Crystal Space format.
