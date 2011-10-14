@@ -1,0 +1,7 @@
+= Glossary =
+
+ * [AresGame Ares]: this is one part of this project; the actual game.
+ * AresEd: this is one part of this project; the game editor.
+ * [Bullet http://bulletphysics.org/wordpress/]: is the physics library that Ares uses.
+ * [CEL http://cel.crystalspace3d.org]: Crystal Entity Layer is the game entity layer that Ares uses. Basically a game entity layer is responsible for managing game objects (like the player, NPC's, weapons, tools, ...)
+ * [CS http://www.crystalspace3d.org]: Crystal Space is the 3D Engine that is used by this project. It is responsible for drawing the 3D graphics, integrating with the [Bullet Physics Library http://bulletphysics.org/wordpress/] and much more.
