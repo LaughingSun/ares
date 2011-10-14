@@ -83,6 +83,49 @@ This quest has two states. In the initial state it will watch out for the player
  * First a message is sent to the Ares game logic (which is kept in the 'world' entity). This message is the 'ares.messagebox' message and when Ares receives this message it will show a message box to the user with a certain message. The message is given with the 'message' parameter for the reward.
  * Then the state is set to 'stop at which point the quest simply stops executing.
 
+== A Glowing Object ==
+
+{{{
+<addon plugin="cel.addons.questdef" >
+  <quest name="glowQuest">
+    <state name="init">
+      <oninit>
+        <reward sequence='animglow' type='sequence' entity='$this' entity_tag='glow' />
+      </oninit>
+      <trigger type="sequencefinish">
+        <fireon entity="$this" sequence="animglow" entity_tag='glow'/>
+        <reward type="newstate" state="continue" />
+      </trigger>
+    </state>
+    <state name="continue">
+      <oninit>
+        <reward type="newstate" state="init" />
+      </oninit>
+    </state>
+    <sequence name="animglow">
+      <op entity="$this" type="ambientmesh" duration="$dur" >
+        <abscolor red="0" green="0" blue="1" />
+      </op>
+      <delay time="$dur" />
+      <op entity="$this" type="ambientmesh" duration="$dur" >
+        <abscolor red="1" green="0" blue="0" />
+      </op>
+      <delay time="$dur" />
+    </sequence>
+  </quest>
+</addon>
+}}}
+
+This quest introduces a few new concepts:
+
+First this quest defines an 'animglow' sequence which will animate the ambient color of the mesh associated with this entity.
+
+Secondly this quest also has a parameter. If an entity wants to use this quest it has to set the 'dur' parameter at the time this quest is attached to the entity. Parameters can be used anywhere in the quest. In this case we're using it to control the duration of the animation sequence for the ambient color.
+
+Finally this quest uses 'oninit' blocks to fire rewards as soon as the quest enters a state.
+
+Due to the way sequences work we have to use two states here. We can't switch directly to 'init'. We first have to go to 'continue' and then back to 'init'. This limitation may be fixed in the future.
+
 == A Bigger Example: A Player Quest ==
 
 In this example I demonstrate how you could make a quest that actually operates as a quest for the player. i.e. it involves a story line quest that the player has to solve. Let's call these quests 'Story Quests' to distinguish them from the more mundane quests that are used for managing entity behaviour on a lower level. Nevertheless these quests are going to be made using the same quest system.
