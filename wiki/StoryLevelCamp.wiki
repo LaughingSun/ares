@@ -10,3 +10,8 @@ This is the level where the player starts the game. This level should have the f
  * Various other NPC to interact with.
  * Training area.
  * Weapon deposit where player can get a (limited) number of armor and weapons before leaving the area.
+
+
+= Nearby Locations =
+
+ * [StoryLevelOostende nearby town Oostende]
