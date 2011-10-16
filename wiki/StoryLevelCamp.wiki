@@ -11,6 +11,13 @@ This is the level where the player starts the game. This level should have the f
  * Training area.
  * Weapon deposit where player can get a (limited) number of armor and weapons before leaving the area.
 
+= Description =
+
+The camp is a fenced-off area with only one entrance to the outside and another entrance to the airport. There are several buildings and baracks:
+
+ * Main control center and briefing room. High-tech area where the military leaders meet.
+ * Sleeping barracks for soldiers.
+ * Weapon and armor depots.
 
 = Nearby Locations =
 
