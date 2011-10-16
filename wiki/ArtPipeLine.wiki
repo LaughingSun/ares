@@ -24,3 +24,7 @@ You can make textures in any kind of image editor. [http://www.gimp.org/ GIMP] i
 = Sound =
 
 For small sound effects we support WAV files. Music is typically done with OGG files. Crystal Space does *not* support MP3.
+
+= General Ares World Building =
+
+On [AresWorldBuilding this page] you can find more information on how the world is actually build.
