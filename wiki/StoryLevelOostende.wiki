@@ -12,4 +12,5 @@ Oostende is a coastal town in Belgium. The [StoreLevelCamp initial military doma
 
 = Nearby Locations =
 
- * [StoryLevelCamp first military camp]
+ * StoryLevelCamp
+ * StoryLevelAirportOostende
