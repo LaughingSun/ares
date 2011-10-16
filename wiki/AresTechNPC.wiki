@@ -1,6 +1,9 @@
+#summary Everything you wanted to know about NPC's in Ares
+
 = Introduction =
 
 Everything related to NPC's goes here.
 
  * [NPCTraits NPC Traits]
  * [NPCFactions NPC Factions]
+ * [NPCStats NPC Stats]
