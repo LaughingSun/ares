@@ -96,3 +96,11 @@ Here is another example of a tiger which is tamed and trained to attack only ali
         * Friendly with: npc 'Mark'
 
 So this tiger is neutral to humans but still enemy with aliens (since that is defined in the 'Dangerous Creature' trait). He is also friendly with Mark who is the owner of this tiger.
+
+
+= The UI In AresEd =
+
+In AresEd this would require three things:
+ * A trait editor window for editing a single trait.
+ * A window where all the existing traits are listed and where one can add new traits.
+ * Then the NPC editor where one can add previously created traits and also get access to the 'NPC specific' trait (editing this would go to the the 'trait editor').
