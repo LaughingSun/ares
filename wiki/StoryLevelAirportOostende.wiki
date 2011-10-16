@@ -6,5 +6,5 @@ A military airport near Oostende. Spaceships can start here.
 
 = Nearby Locations =
 
- * [StoryLevelOostende Nearby town Oostende]
- * [StoryLevelCamp Military camp]
+ * StoryLevelOostende
+ * StoryLevelCamp
