@@ -1,3 +1,5 @@
+#summary NPC Traits
+
 = Introduction =
 
 To define NPC's in Ares I propose a system of 'traits'. A trait is basically a set of attributes, properties and other stuff which is all collected in a single object. An NPC can be defined using different traits. Also at runtime you can associate and change the traits which are coupled to an NPC. To clarify this idea let us make it more concrete with a few examples which could be relevant to the Project Ares game. Note that the definitions below are just examples. It will most likely not be like this in the real game:
