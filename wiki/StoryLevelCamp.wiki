@@ -14,4 +14,5 @@ This is the level where the player starts the game. This level should have the f
 
 = Nearby Locations =
 
- * [StoryLevelOostende nearby town Oostende]
+ * [StoryLevelOostende Nearby town Oostende]
+ * [StoryLevelAirportOostende Airport near Oostende]
