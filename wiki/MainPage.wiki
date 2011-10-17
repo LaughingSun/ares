@@ -18,7 +18,11 @@ Note: the links that are marked 'slightly outdated' are still relevant and usefu
    * [DetailedTodo Detailed Todo (slightly outdated)]: a detailed explanation of various tasks. Most of this is still very relevant.
    * [Glossary]: this is a list of many abbreviations you will find in this wiki.
  * The Game
-   * [AresGame Ares Story and Game]: all information about the game itself.
+   * [AresGame Ares Story and Game]: short summary of the story.
+   * [AresHistory History]: history of the game world. What happened before.
+   * [AresWorld World]: the world, geography, levels, ...
+   * [AresNPCs NPCs]: a list of all NPCs.
+   * [AresQuests Quests]: a list of all story quests.
  * The Editor
    * [AresEdManual AresEd User Manual (slightly outdated)]: the manual of AresEd. Since AresEd is in heavy development this gets outdated soon. Expect this to stabilize in the future.
  * For Artists
