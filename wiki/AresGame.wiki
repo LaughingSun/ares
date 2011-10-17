@@ -19,12 +19,6 @@ There are several ways to win the game:
  * The hero can achieve a more diplomatic solution where both sides agree to cease hostilities and instead decide to share resources and technology.
  * The hero can side with the aliens and help the alien race to get domination over Earth. The hero ends up rich and in a influencial position among the alien government.
 
-= Levels =
-
- * [StoryLevelCamp Training Camp]: The first level would be the training camp where our hero is trained as a soldier. The training is nearing its end and with a few minigames the player can choose his or her attributes. There should be a few training areas in this level and the possibility to interact with some NPC's. Some of them might give clues useful for future quest lines (i.e. there could be a spy in the camp although you wouldn't know that at first).
- * [StoryLevelOostende Oostende]: near the camp there is a small city (since I'm from Belgium I thought to pick a coastal city near the Belgian coastline, any place in Europe is just as good as any since this is a global problem, so why not there?).
- * [StoryLevelAirportOostende]: Oostende has an airport which has been mostly rebuild after the war as a military airport. There is one section where spaceships can launch.
-
 = Discussion =
 
 This is of course a big idea but it easy to do this in very small steps. 
