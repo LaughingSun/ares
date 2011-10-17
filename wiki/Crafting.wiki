@@ -7,3 +7,19 @@ In Ares it will be possible to make new tools, weapon and armor using various te
  * Dismantle human and alien devices (provided you have the right tools) to get the parts.
  * Assemble parts again into various configurations (again provided you have the right tools).
  * Fix existing devices using replacement parts.
+
+= Parts =
+
+Here is a list of possible parts:
+
+ * Battery
+ * Alien Energy Cell
+ * Energy Modulator
+ * Scrap Electronic Parts (generic item that you can get from disassembling electronic devices and which you can use to assemble them again)
+ * Alien Parts (equivalent for alien devices)
+ * Screws and Bolts
+ * Motion Sensor
+ * Transmitter
+ * Receiver
+ * Alien Crystal
+ * ...
