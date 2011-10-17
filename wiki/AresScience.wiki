@@ -2,4 +2,15 @@
 
 = Introduction =
 
-todo
+== Human Technology ==
+
+ * Limited cloacking technology
+ * Biological technology, bug spies, ...
+
+== Alien Technology ==
+
+ * Energy weapons
+
+== Hybrid Technology ==
+
+This is technology that came into existance after humans tried to reverse engineer alien technology and combine it with their own. Most of this hybrid technology is not very powerful but it is very flexible and many different things can be [Crafting crafted].
