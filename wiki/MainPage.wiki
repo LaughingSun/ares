@@ -23,6 +23,7 @@ Note: the links that are marked 'slightly outdated' are still relevant and usefu
    * [AresEdManual AresEd User Manual (slightly outdated)]: the manual of AresEd. Since AresEd is in heavy development this gets outdated soon. Expect this to stabilize in the future.
  * For Artists
    * [ArtPipeLine The Art Pipeline]: if you are an artist then this is the page for you.
+   * [AresWorldBuilding General World Building]: information on how to build worlds in Ares and the kinds of assets we need.
  * For Programmers
    * [AresBuilding How to build Ares]: if you are a programmer then this is the page for you.
    * [Architecture CS/CEL/Architecture Discussion]: a general overview of the Ares architecture.
