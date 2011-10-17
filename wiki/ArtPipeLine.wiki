@@ -15,7 +15,7 @@ for Blender 2.5 there is a [http://wiki.peragro.org/index.php/Tools/B2.5CS new e
 
 = Animated Meshes =
 
-todo... (note, we're going to use [http://www.makehuman.org/ MakeHuman] here.
+todo... (note, we're going to use [http://www.makehuman.org/ MakeHuman] for the characters. See the [AresTaskMakeHuman dedicated page]).
 
 = Textures =
 
