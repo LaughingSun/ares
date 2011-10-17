@@ -8,6 +8,10 @@ A big part of the game takes part in the western part of Belgium (near the coast
 
 We are not going to restrict the game to that area. With some quests the player could be transported to one of the ruined cities (Brussels, Paris, London, ...?) in order to do some missions and there are of course also other possibilities.
 
+= Outside Areas =
+
+Currently there is only one outside area and that is the western part of Belgium. All levels are located inside that area. In the future more areas can be added.
+
 = Levels =
 
  * [StoryLevelCamp Training Camp]: The first level would be the training camp where our hero is trained as a soldier. The training is nearing its end and with a few minigames the player can choose his or her attributes. There should be a few training areas in this level and the possibility to interact with some NPC's. Some of them might give clues useful for future quest lines (i.e. there could be a spy in the camp although you wouldn't know that at first).
