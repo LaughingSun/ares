@@ -1,0 +1,9 @@
+#summary Crafting in Ares, making of tools and weapons
+
+= Introduction =
+
+In Ares it will be possible to make new tools, weapon and armor using various technology items that you can find. You will be able to do the following:
+
+ * Dismantle human and alien devices (provided you have the right tools) to get the parts.
+ * Assemble parts again into various configurations (again provided you have the right tools).
+ * Fix existing devices using replacement parts.
