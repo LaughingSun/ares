@@ -14,6 +14,7 @@ Note: the links that are marked 'slightly outdated' are still relevant and usefu
 
  * General
    * [Team The Team]
+   * [http://www.crystalspace3d.org/forum/index.php/board,21.0.html Ares Forums]: discuss everything related to Ares here.
    * [VideoBlog Ares Video Blog]: a blog showing important milestones in the development of this project.
    * [Todo Highlevel Todo]: check here if you want to find something to do (incomplete).
    * [DetailedTodo Detailed Todo (slightly outdated)]: a detailed explanation of various tasks. Most of this is still very relevant.
