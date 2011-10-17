@@ -4,7 +4,7 @@
 
 This page contains a list of all NPCs in the game. Also check out [AresTechNPC] for more technical information on NPCs.
 
-= List =
+= General =
 
 NPCs we need:
  * Various soldiers and military personal
@@ -15,3 +15,9 @@ NPCs we need:
  * Alien soldiers
  * Alien leader
  * Alien scientists
+
+= List =
+
+ * Spy (initial location [StoryLevelCamp]): one of the soldiers in the camp is a spy NPC (spy for the aliens) but the player doesn't know this yet. He is an elderly man who acts like he is rather distracted but looks can be deceiving. Initial conversation with this man doesn't reveal a lot of useful information at first.
+ * Colonel (initial location [StoryLevelCamp]): the local boss of the military camp. He is a stern man who leads his camp with an iron fist. He is an important anchor point in many quests.
+ * Sergeant (initial location [StoryLevelCamp]): she is a friendly NPC with which the player can interact and get a lot of useful information for later quests involving both the human victory as the diplomacy main victory quests.
