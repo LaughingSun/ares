@@ -24,6 +24,7 @@ Note: the links that are marked 'slightly outdated' are still relevant and usefu
    * [AresScience Science and Technology]: all science and technology available in 2033 (includes human and alien technology).
    * [AresNPCs NPCs]: a list of all NPCs.
    * [AresQuests Quests]: a list of all story quests.
+   * [Crafting Crafting]: how crafting works.
  * The Editor
    * [AresEdManual AresEd User Manual (slightly outdated)]: the manual of AresEd. Since AresEd is in heavy development this gets outdated soon. Expect this to stabilize in the future.
  * For Artists
