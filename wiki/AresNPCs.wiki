@@ -2,4 +2,12 @@
 
 = Introduction =
 
-todo...
+NPCs we need:
+ * Various soldiers and military personal
+ * Merchants in cities
+ * Thugs, thiefs, ...
+ * Human scientists
+ * Just people, children, ...
+ * Alien soldiers
+ * Alien leader
+ * Alien scientists
