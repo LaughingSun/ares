@@ -13,6 +13,7 @@ The goal of Project Ares is to make three things:
 Note: the links that are marked 'slightly outdated' are still relevant and useful. They were not recently updated however and may contain information that is slightly wrong.
 
  * General
+   * [Team The Team]
    * [VideoBlog Ares Video Blog]: a blog showing important milestones in the development of this project.
    * [Todo Highlevel Todo]: check here if you want to find something to do (incomplete).
    * [DetailedTodo Detailed Todo (slightly outdated)]: a detailed explanation of various tasks. Most of this is still very relevant.
