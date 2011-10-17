@@ -2,6 +2,10 @@
 
 = Introduction =
 
+This page contains a list of all NPCs in the game. Also check out AresTechNPC for more technical information on NPCs.
+
+= List =
+
 NPCs we need:
  * Various soldiers and military personal
  * Merchants in cities
