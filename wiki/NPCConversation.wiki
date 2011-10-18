@@ -10,8 +10,8 @@ Everything related to NPC conversation is here. Note that the NPC conversation s
 A voice package represents a certain 'voice' of an NPC. A voice package basically defines the statements a certain group of NPCs can speak together with optional audio associated with it. A voice package is defined as a group of statements. Every statement has an ID and a number of random sentences+audio. Here is an example voice package:
 
 {{{
-<addon template="cel.addons.voicepackage">
-  <package name="youngFemale">
+<addon template="cel.addons.conversation.loader">
+  <voice name="youngFemale">
     <statement id="stGreeting">
       <sentence msg="Hi sir" voice="youngfemale_hisir.wav" validate="=?player.sex=='M'" />
       <sentence msg="Hi lady" voice="youngfemale_hilady.wav" validate="=?player.sex=='F'" />
@@ -43,4 +43,27 @@ While the player is not technically an NPC he or she also has a voice package. T
 
 = Conversation Packages =
 
-While the voice package defines what an NPC can say (and how he or she says it), the conversation packages defines the actual conversation options at any given time. It also defines the options for the player.
+While the voice package defines what an NPC can say (and how he or she says it), the conversation packages defines the actual conversation options at any given time. It also defines the options for the player. Conversation packages can be attached to NPCs but also to quests.
+
+{{{
+<addon template="cel.addons.conversation.loader">
+  <conversation name="soldierConversation">
+    <greeting id="stGreeting" />
+    <choice id="playerIntroduction" answer="stIntroduction" />
+    <choice id="playerWhereDepot" answer="stExplainDepot" />
+    <choice id="playerWhereBarracks" answer="stExplainBarracks" />
+    <choice id="playerTrade" answer="stOkLetsTrade" validate="=?mood(ent('player'),$this) > .7" end="true" message="ares.tradeWindow">
+      <par name="target" string="$this" />
+    </choice>
+    <choice id="playerGoodbye" answer="stGoodbye" end="true" />
+  </conversation>
+  <conversation name="questHiddenKeyClue">
+    <choice id="playerWhereIsTheKey" answer="stLookKitchen"
+        quest="questHiddenKey" state="looking" />
+  </conversation>
+</addon>
+}}}
+
+Here you see two conversation packages. The first one is one that can be attached to any human soldier. It allows four standard questions from the player and one optional one that only occurs if the soldier likes the player sufficiently (trading). When the player selects an NPC to start a conversation the NPC will immediatelly say the 'greeting' message (this is an optional tag). And then the player will get 4 or 5 options to choose from depending on how the soldier likes the player. Some of the options immediatelly end the conversation (like 'Goodbye' and 'Trade').
+
+The second conversation package belongs to a quest. This package will be added by the 'questHiddenKey' quest to all NPCs that need it. So at any given time there can be multiple conversation packages active on a given NPC. The list of options for the player will be built from all active conversation packages (depending on 'validate' and other conditions). In this example the player gets an extra 'Where is the key?' question that he or she can ask the soldier. But this question is only present if the 'questHiddenKey' is still in the 'looking' state.
