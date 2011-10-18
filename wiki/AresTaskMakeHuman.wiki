@@ -19,3 +19,14 @@ Some features requested/desired:
  * subdivision of the !MakeHuman model, in order to deactivate the parts of the body that are hidden by the clothes
  * import from the !MakeHuman hair system to the CS one
  * LOD management using the !MakeHuman proxies as submeshes that are enabled/disabled depending on the LOD
+
+== More technical information ==
+
+There are several file types to be parsed:
+ * .obj files, for the base model, the clothes and the hairs
+ * .target files, for the morph targets
+ * .rig files, for the skeleton and the weight map
+
+The main data file used is in 'makehuman/data/3dobjs/base.obj', this is the base model, without any morph targets applied. This file is in the Wavefront file format and has to be loaded with the exact same order of vertices than !MakeHuman, in order to be able to apply the morph targets.
+
+So, the key is to copy the exact same behavior of !MakeHuman by adapting in C++ their Python code. The code doing that is sit at 'makehuman/core/files3d.py'.
