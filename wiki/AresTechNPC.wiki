@@ -8,3 +8,4 @@ Everything related to NPC's goes here.
  * [NPCFactions NPC Factions]
  * [NPCStats NPC Stats]
  * [NPCSkills NPC Skills]
+ * [NPCConversation NPC Conversation System]
