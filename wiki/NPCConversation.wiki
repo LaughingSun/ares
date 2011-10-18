@@ -1,0 +1,30 @@
+#summary NPC Conversation System
+
+= Introduction =
+
+Everything related to NPC conversation is here. Note that the NPC conversation system as explained here is not implemented yet.
+
+
+= Voice Packages =
+
+A voice package represents a certain 'voice' of an NPC. A voice package basically defines the statements a certain group of NPCs can speak together with optional audio associated with it. A voice package is defined as a group of statements. Every statement has an ID and a number of random sentences+audio. Here is an example voice package:
+
+{{{
+<addon template="cel.addons.voicepackage">
+  <package name="youngFemale">
+    <statement id="stGreeting">
+      <sentence msg="Hi sir" voice="youngfemale_hisir.wav" validate="=?player.sex=='M'" />
+      <sentence msg="Hi lady" voice="youngfemale_hilady.wav" validate="=?player.sex=='F'" />
+      <sentence msg="Greetings sir" voice="youngfemale_greetingssir.wav" validate="=?player.sex=='M'" />
+      <sentence msg="Greetings lady" voice="youngfemale_greetingslady.wav" validate="=?player.sex=='F'" />
+    </statement>
+    <statement id="stGoodbye">
+      <sentence msg="Goodbye!" voice="youngfemale_goodbye.wav" />
+      <sentence msg="Later!" voice="youngfemale_later.wav" />
+      <sentence msg="Hmpf..." voice="youngfemale_grunt.wav" validate="=?mood < .3" />
+    </statement>
+  </package>
+</addon>
+}}}
+
+In this example we created a simple voice package for a young female NPC. The 'voice' tags are optional but in this package they are specified so the NPCs using this package will actually speak. This package defines two statement. A greeting statement and a goodbye statement. The greeting statement has four sentences. Two are used in case the player is male and the other two are used in case the player is female. The goodbye statement has three sentences. One of these sentences will only be used when the mood of the NPC is low.
