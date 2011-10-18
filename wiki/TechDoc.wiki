@@ -43,9 +43,5 @@ Here is a list of property classes in CEL that are potentially useful for defini
  * [PCWire Wire Property Class]: allows _wiring_ messages from one source to some target.
  * [PCProperties Properties Property Class]: property class holding general variables and attributes.
 
-== Various ==
-
- * [AresTechNPC NPC Structuring]
-
 
 Back to [MainPage]
