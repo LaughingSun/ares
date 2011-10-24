@@ -2,7 +2,7 @@
 
 = Introduction =
 
-Ares takes place on earth in the year 2033. So the general style should be contemporary and slightly futuristic. Also note that there is alien technology and alien spaceships.
+Ares takes place on earth in the year 2053. So the general style should be contemporary and slightly futuristic. Also note that there is alien technology and alien spaceships.
 
 A big part of the game takes part in the western part of Belgium (near the coast). Most big cities have been hit by the initial alien attack and humankind has learned to fight back by not providing many central big locations. So there are lots of relatively small military bases scattered around the world. One of them is near Oostende, a medium sized city near the coast.
 
