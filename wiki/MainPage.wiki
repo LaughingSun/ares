@@ -23,7 +23,7 @@ Note: the links that are marked 'slightly outdated' are still relevant and usefu
    * [AresGame Ares Story and Game]: short summary of the story.
    * [AresHistory History]: history of the game world. What happened before.
    * [AresWorld World]: the world, geography, levels, ...
-   * [AresScience Science and Technology]: all science and technology available in 2033 (includes human and alien technology).
+   * [AresScience Science and Technology]: all science and technology available in 2053 (includes human and alien technology).
    * [AresNPCs NPCs]: a list of all NPCs.
    * [AresQuests Quests]: a list of all story quests.
    * [Crafting Crafting]: how crafting works.
