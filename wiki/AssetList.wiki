@@ -4,7 +4,7 @@
 
 Check AresWorldBuilding for the phylosophy behind building the world. We will basically work with 'building blocks'.
 
-Always remember that we are 2033 in Europe. So building style should be roughly like we have right now except perhaps with a more futuristic touch at times.
+Always remember that we are 2053 in Europe. So building style should be roughly like we have right now except perhaps with a more futuristic touch at times.
 
 As is usually the case the military has access to more advanced things. Most of the airports that exist these days are still there but parts of them have been modified for new spaceships. The way I see this is that there are huge holes in the ground with a big building that is partially inside the ground. From these holes the spaceships can launch.
 
