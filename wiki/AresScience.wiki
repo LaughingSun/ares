@@ -29,3 +29,20 @@ Here is an initial list of the types of weapons we can have:
  * *Alien*: High-Energy Radio frequency weapons.Causes heat damage.
  * *Alien*: Particle beam weapons.Produces a stream of accelerated particles moving at near the speed of light.
  * *Human*: Improved versions of classic bullet shooting guns.
+
+Weapon modifications:
+
+ * Common scope
+ * Mass sensor enhanced scope
+ * Heat sensor enhanced scope
+ * Motion sensor enhanced scope
+ * Human silencer
+ * Alien silencer
+ * Extended alien energy cell magazines type A
+ * Extended alien energy cell magazines type B
+ * Improved capacity battery barrels (human) type A
+ * Improved capacity battery barrels (human) type B
+ * Alien to Human energy transfomer (allows to use alien energy cells)
+ * Human to Alien energy transformer
+
+When a player uses alien modifications/parts in a human weapon some characteristics of the weapon worsen automaticaly while some combinations are not possible at all. I thought that it will be great if combining two weapon types in one gun was made possible. For example a X-Ray beam weapon that damages the enemy with an additional electrolaser beam which of course will deal much less damage.
