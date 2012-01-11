@@ -1,0 +1,25 @@
+#summary Screenshots of the Ares Editor
+
+= Introduction =
+
+In this page you can find screenshots of the Ares Editor in development.
+
+= Recent Screenshots =
+
+Here is a view of the entity editor:
+
+http://i44.tinypic.com/2en3gk7.jpg
+
+Here is the 3D world editor:
+
+http://i44.tinypic.com/jzgyl2.jpg
+
+And here you can see the dynamic factory editor where you define new objects that can be used in the world as well as define their physics properties:
+
+http://i44.tinypic.com/ern9nc.jpg
+
+= Old Screenshots =
+
+The screenshots here are old:
+
+http://i52.tinypic.com/34ray5u.png
