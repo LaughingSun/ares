@@ -4,19 +4,19 @@
 
 == 23 October 2011 ==
 
-This latest video is a remake of my old AresEd video. It is made using better technology (no more video camera of my laptop screen) and shows a few new features (moving foliage/grass and some editing improvements).
+This latest video is a remake of my old AresEd video. It is made using better technology (no more video camera of my laptop screen) and shows a few new features (moving foliage/grass and some editing improvements). <g:plusone size="medium"></g:plusone>
 
 <wiki:video url="http://www.youtube.com/watch?v=O94HVzPm6HY"/>
 
 == 12 October 2011 ==
 
-This video is more technical and demonstrates how CEL supports lots of entities (about 10 million) with clever bookkeeping and managing of (modified) state.
+This video is more technical and demonstrates how CEL supports lots of entities (about 10 million) with clever bookkeeping and managing of (modified) state. <g:plusone size="medium"></g:plusone>
 
 <wiki:video url="http://www.youtube.com/watch?v=0H6UnKwuzAM"/>
 
 
 == 11 April 2011 ==
 
-In this video we demonstrate the basic functionality of the AresEd game editor. This is obviously work in progress and the video was also made using a video camera. So not very high quality.
+In this video we demonstrate the basic functionality of the AresEd game editor. This is obviously work in progress and the video was also made using a video camera. So not very high quality. <g:plusone size="medium"></g:plusone>
 
 <wiki:video url="http://www.youtube.com/watch?v=d3wlNbHheY4"/>
