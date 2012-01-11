@@ -30,6 +30,7 @@ Note: the links that are marked 'slightly outdated' are still relevant and usefu
    * [Crafting Crafting]: how crafting works.
  * The Editor
    * [AresEdManual AresEd User Manual (slightly outdated)]: the manual of AresEd. Since AresEd is in heavy development this gets outdated soon. Expect this to stabilize in the future.
+   * [AresEdScreens AresEd Screenshots]: old and new screenshots of AresEd in development.
  * For Artists
    * [ArtPipeLine The Art Pipeline]: if you are an artist then this is the page for you.
    * [AresWorldBuilding General World Building]: information on how to build worlds in Ares and the kinds of assets we need.
