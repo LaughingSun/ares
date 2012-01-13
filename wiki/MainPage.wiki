@@ -29,6 +29,7 @@ Note: the links that are marked 'slightly outdated' are still relevant and usefu
    * [AresQuests Quests]: a list of all story quests.
    * [Crafting Crafting]: how crafting works.
  * The Editor
+   * [AresEdFeatures Features (present and future)]
    * [AresEdManual AresEd User Manual (slightly outdated)]: the manual of AresEd. Since AresEd is in heavy development this gets outdated soon. Expect this to stabilize in the future.
    * [AresEdScreens AresEd Screenshots]: old and new screenshots of AresEd in development.
  * For Artists
