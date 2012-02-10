@@ -11,7 +11,7 @@ The easiest way to make models is using [http://www.blender3d.org Blender]. The 
 
 If you use Blender 2.49 (or Blender < 2.5) then you should use [http://leapingcat.org/blender2crystal/index.php/Main_Page blender2crystal]. This tool is very powerful and has a lot of support for Crystal Space features. If you plan to use animated models, then be sure to use the trunk version of blender2crystal.
 
-For Blender 2.6 there is a new exporter included with recent versions of Crystal Space. You can find more information [http://www.crystalspace3d.org/docs/online/manual-2.0/Blender.html in the CS manual]. It is not yet as powerful as the original blender2crystal but it does the job. It is currently being improved and extended for the support of animated models.
+For Blender 2.6 there is a new exporter included with recent versions of Crystal Space. You can find more information [http://www.crystalspace3d.org/docs/online/manual-2.0/Blender.html in the CS manual]. It is not yet as powerful as the original blender2crystal but it does the job.
 
 = Characters =
 
@@ -35,7 +35,7 @@ New morph targets can be defined for the !MakeHuman model, eg to create new face
 
 == Animations ==
 
-Morph animations are not yet really supported by CS. Still a technical TODO. They should however be defined in Blender, then exported using the B2.5CS script.
+Morph animations are not yet really supported by CS. Still a technical TODO. They should however be defined in Blender, then exported using the Blender export script.
 
 Skeletal animations should also be defined in Blender, but here you will have to choose a skeleton, and the animations you will define will be valid only for the models using the same limb proportions of the skeleton. We can probably use the default proportions from !MakeHuman, and see later for the other skeletons (this would be managed partially through animation retargeting tools).
 
