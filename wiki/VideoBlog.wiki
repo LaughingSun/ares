@@ -2,6 +2,17 @@
 
 = Video Blog =
 
+== 13 Februari 2012 ==
+
+This is my fourth Ares Video Blog entry. A lot has changed since the last video blog. In this demonstration I show how you can make a simple (very simple) game using AresEd. A few disclaimers:
+  * AresEd is work in progress. There are still bugs and the user interface could be better.
+  * My microphone isn't good. Sound quality is not that good.
+  * The video encoder I used apparently caused a choppy framerate. AresEd runs much smoother in reality.
+  * I cut away a part in the middle where something wasn't working properly :-)
+<g:plusone size="medium"></g:plusone>
+
+<wiki:video url="http://www.youtube.com/watch?v=TVPXiD4QcQM"/>
+
 == 23 October 2011 ==
 
 This latest video is a remake of my old AresEd video. It is made using better technology (no more video camera of my laptop screen) and shows a few new features (moving foliage/grass and some editing improvements). <g:plusone size="medium"></g:plusone>
