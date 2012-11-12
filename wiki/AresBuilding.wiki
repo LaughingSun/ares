@@ -16,6 +16,7 @@ On Linux there is a whole lot of dependencies you can install with your package 
  * CEGUI (version?)
  * OpenGL development libraries
  * OGG Support
+ * NVidia-CG toolkit: not 100% required but nice for advanced shaders (note that despite the name this toolkit is also useful for ATI/AMD video cards).
  * ...
 
 To download and build CS you can use the following commands:
