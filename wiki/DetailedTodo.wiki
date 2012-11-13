@@ -3,7 +3,6 @@ Here is a list of what I think still has to be done. Most likely this list is fa
 == Shared between Ares Game and Ares Editor ==
 
  * Code issues:
-    * _(Assigned to Jorrit):_ Clean up and restructure so that all shared code is actually shared and not duplicated.
 
  * Landscape:
     * Investigate how to implement a *really* big but accurate terrain. Probably doable with the tools available in CS right now. Still needs someone to actually look at it. This task includes paging as well.
@@ -11,10 +10,8 @@ Here is a list of what I think still has to be done. Most likely this list is fa
 
  * Big World (dynworld plugin):
     * The dynworld plugin already supports 'paging in' dynamic/static objects and their associated rigid bodies. However, due to numerical accuracy problems in physics libraries (bullet in particular but this is true for other physics libraries as well) it would be nice if we could 'localize' the coordinate system so that coordinate systems for the physics simulation are always relatively small even if we are moving along a very big landscape. To support this the dynworld plugin needs to keep track of the physics bodies (it already does this) and from time to time it will have to physically 'move' the colliders so that they are again centered around the camera. That means that all 'active' rigid bodies will always be centered roughly around the camera.
-    * Fix the fade in/out that already happens for objects when they go out of range.
     * Fix the imposters. As it is right now they swap up-side-down sometimes. This is actually a bug in Crystal Space. ''[Mike: If someone can send me a genmesh which shows this behaviour, I'll try and fix it.]''
     * Define 'zones' in the world. Segments are really separate. There is no seamless integration between different zones. Instead you get a loading screen. This is useful for making different separate areas or for making indoor areas where you first have to open a door and then enter another zone in the world.
-    * Add support for CEL entities.
 
  * Sky shader:
     * Fix the ugly seams. ''[Mike: I can take a look at this.]''
@@ -35,18 +32,15 @@ Here is a list of what I think still has to be done. Most likely this list is fa
     * A general thing we need to do is to discuss and check how we can share as much as possible between all editing tool efforts for Crystal Space. A proposal based on an iModifiable interface is in discussion and could perhaps be considered here.
 
  * User Interface:
-    * _(Assigned to Jorrit):_ Convert from CEGUI to WX.
 
  * Landscape:
     * Allow for real-time editing of the terrain. That includes height but also the texturing. Such an editor has already been started in CS (see 'csterrainedtest').
     * Allow for editing of foliage, eg by painting directly on the meshgen density maps.
 
  * Big World:
-    * Switch between the different zones of the world.
     * See if our current approach to editing works as well for indoor type areas. Possibly we want to hide objects that are obstructing what we want to edit.
 
  * Asset Management:
-    * Currently the landscape, the meshes to be used and the dynamic objects you can use are all predefined in XML files. In the future we need AresEd to be able to do asset-management as well.
     * A Peragro's /[http://wiki.peragro.org/index.php/Tools/DAMN DAMN/] client can be added in CS. This would greatly help managing the assets.
 
  * Curved Mesh editing (like the street editor):
@@ -56,23 +50,16 @@ Here is a list of what I think still has to be done. Most likely this list is fa
     * For big streets the curved mesh should be split so that the distant parts can 'fade' out of the view.
 
  * Undo system:
-    * Current undo system is very easy and works very nicely. However it is not feasable to keep using it as it basically works by just saving the entire world to xml every time an action is done. This currently works because the world isn't that big yet so it is very fast. We need a better undo system that doesn't need to store a complete copy of the world every time. One issue here is the problem that a single undoable action can have a lot of consequences. For example, move a table on which a lot of objects are positioned and you might need to have to restore a lot of objects if the user presses 'undo'. So we need a callback from the physics system that records which objects have moved since the user did some action. Then we can keep track of all objects that have to be restored.
     * The Undo/Redo system from Peragro's Anvil is probably a good solution to this problem
 
  * Basic editing (moving/aligning/rotating objects):
-    * When moving objects with the keyboard they should move relative to the camera. Now they move relative to the local object axis which can be counterintuitive depending on how the object is oriented.
-    * Better stacking function that actually puts the objects on top of each other.
     * Precise positioning of an object. This can be made through a dedicated mesh displaying the transform axis of the object + a mouse interaction to move/rotate/scale the object (see eg [http://www.blendercookie.com/getting-started-with-blender-modeling/ the one from Blender], video at 2:50)
     * Use of decals to indicate where new objects will appear (requires support for decals in terrain2).
 
  * Camera handling:
-    * _DONE:_ Fix the bug with 'LookAt' where it sometimes slightly calculates a wrong vertical angle so it fails to correctly look at the object.
-    * _DONE:_ Implement panning.
     * Easier camera navigation ''[kickvb: I'll work on that using the new iCameraManager]''
 
  * Quest editor:
-    * We need an editor for 'game logic' elements. These will be implemented by quests in CEL. Quests are going to be very important for driving the actual game. Quests are going to be the objects that actually keep track of where the game is and what still has to be done. Quests can be associated with various things like NPC's, places, and other triggers. ''[Mike: I'm envisioning some point-and-click quest editing here, e.g. entity selection, area drawing (for triggers), sector selection, item placement etc. Would it be able to export CEL xml data?]''
-    * The quest system needs to drive conversation and behaviours of NPC's so the editor should accomodate such things.
 
  * Attribute editor:
     * For NPC's
