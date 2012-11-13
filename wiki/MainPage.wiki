@@ -6,7 +6,7 @@ The goal of Project Ares is to make three things:
 
  * AresEd: A world editor specific for Ares (can't be used as a generic world editor for other CS apps) in which you can make a game world and define the game logic.
  * A game player that can play games created by the editor.
- * An actual [AresGame game] that uses this technology.
+ * An actual [AresGame game] that uses this technology. Note the actual game has been put on hold until the AresEd tool is more mature.
 
 = Contents =
 
@@ -19,6 +19,17 @@ Note: the links that are marked 'slightly outdated' are still relevant and usefu
    * [Todo Highlevel Todo]: check here if you want to find something to do (incomplete).
    * [DetailedTodo Detailed Todo (slightly outdated)]: a detailed explanation of various tasks. Most of this is still very relevant.
    * [Glossary]: this is a list of many abbreviations you will find in this wiki.
+ * The Editor
+   * [AresEdFeatures Features (present and future)]
+   * [AresEdManual AresEd User Manual (slightly outdated)]: the manual of AresEd. Since AresEd is in heavy development this gets outdated soon. Expect this to stabilize in the future.
+   * [AresEdScreens AresEd Screenshots]: old and new screenshots of AresEd in development.
+ * For Programmers
+   * [AresBuilding How to build Ares]: if you are a programmer then this is the page for you.
+   * [Architecture CS/CEL/Architecture Discussion]: a general overview of the Ares architecture.
+   * [TechDoc Technical Documentation]: other technical information related to Ares and CEL.
+   * [AresTechNPC Technical NPC Documentation]: technical documentation related to NPCs.
+Information below is not currently updated because the Ares game itself is currently on hold:
+
  * The Game
    * [AresGame Ares Story and Game]: short summary of the story.
    * [AresHistory History]: history of the game world. What happened before.
@@ -28,17 +39,8 @@ Note: the links that are marked 'slightly outdated' are still relevant and usefu
    * [AresNPCs NPCs]: a list of all NPCs.
    * [AresQuests Quests]: a list of all story quests.
    * [Crafting Crafting]: how crafting works.
- * The Editor
-   * [AresEdFeatures Features (present and future)]
-   * [AresEdManual AresEd User Manual (slightly outdated)]: the manual of AresEd. Since AresEd is in heavy development this gets outdated soon. Expect this to stabilize in the future.
-   * [AresEdScreens AresEd Screenshots]: old and new screenshots of AresEd in development.
  * For Artists
    * [ArtPipeLine The Art Pipeline]: if you are an artist then this is the page for you.
    * [AresWorldBuilding General World Building]: information on how to build worlds in Ares and the kinds of assets we need.
    * [ConceptArt Concept art]
    * [AssetList List of assets]: here is a list of all assets that we need and already have.
- * For Programmers
-   * [AresBuilding How to build Ares]: if you are a programmer then this is the page for you.
-   * [Architecture CS/CEL/Architecture Discussion]: a general overview of the Ares architecture.
-   * [TechDoc Technical Documentation]: other technical information related to Ares and CEL.
-   * [AresTechNPC Technical NPC Documentation]: technical documentation related to NPCs.
