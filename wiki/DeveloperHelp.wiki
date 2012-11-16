@@ -1,0 +1,21 @@
+#summary This page is a guide for Ares developers
+
+= Introduction =
+
+If you are a new (or even a not-so-new) Ares developer then this guide will be useful for you. It contains various pointers to documentation and references to help you find your way through the three projects that make up this project.
+
+= Requirements =
+
+Ares is based on the Crystal Space and CEL projects so you need to get the latest source of those projects. Since Ares is in constant development and also requires constant changes to CS and CEL as well we can't depend on stable CS and CEL releases. So you need to get the development versions (trunk) from svn.
+
+= Building =
+
+
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
