@@ -56,3 +56,5 @@ CEL is a game logic system on top of Crystal Space. Ares heavily uses CEL for ga
 = Basics of Ares =
 
 At TechDoc you can find some information about the basics of Ares. It is not 100% up-to-date but I hope to solve this soon.
+
+There is also the built-in documentation which you can access using the 'F1' key from within AresEd (or pointing your browser to the documentation as it gets installed on your harddisk).
