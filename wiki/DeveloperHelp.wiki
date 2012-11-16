@@ -6,16 +6,16 @@ If you are a new (or even a not-so-new) Ares developer then this guide will be u
 
 = Requirements =
 
-Ares is based on the Crystal Space and CEL projects so you need to get the latest source of those projects. Since Ares is in constant development and also requires constant changes to CS and CEL as well we can't depend on stable CS and CEL releases. So you need to get the development versions (trunk) from svn.
+Ares is based on the Crystal Space and CEL projects so you need to get the latest source of those projects. Since Ares is in constant development and also requires constant changes to CS and CEL as well we can't depend on stable CS and CEL releases. So you need to get the development versions (trunk) from svn:
+
+{{{
+svn co https://crystal.svn.sourceforge.net/svnroot/crystal/CS/trunk CS
+svn co https://cel.svn.sourceforge.net/svnroot/cel/cel/trunk CEL
+svn co http://ares.googlecode.com/svn/trunk/ ares-read-only
+}}}
 
 = Building =
 
-
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+ * Documentation included with CS project: http://www.crystalspace3d.org/docs/online/manual/Building.html
+ * Documentation included with CEL project: http://crystalspace3d.org/cel/docs/online/manual/Building.html
+ * Documentation and summary for building Ares: AresBuilding
