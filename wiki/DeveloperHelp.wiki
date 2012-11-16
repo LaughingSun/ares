@@ -27,6 +27,10 @@ svn co http://ares.googlecode.com/svn/trunk/ ares-read-only
  * Documentation included with CEL project: http://crystalspace3d.org/cel/docs/online/manual/Building.html
  * Documentation and summary for building Ares: AresBuilding
 
+= Overall Structure =
+
+The [Architecture] page on this wiki explains the overal structure of this project. It is recommended you start with this before reading the rest of the documentation below.
+
 = Basics of Crystal Space =
 
 Crystal Space is a big project but luckily you don't need to know everything to be able to develop with it. Depending on the task you are doing there are various modules you need to know better but at the very least you should read the following sections of the documentation to understand the basics of CS a bit better:
@@ -40,3 +44,15 @@ The following chapters are very useful but are more advanced and you can postpon
 
  * Creating your own plugins and SCF. This is a bit more advanced information on how to use SCF and make your own plugins. This may come in handy at some point but to start with you can skip this section: http://www.crystalspace3d.org/docs/online/manual/SCF-Chapter.html
  * Event system. Crystal Space is heavily event based. This is also a more advanced section of the manual. Skip this until you know you need to work with events: http://www.crystalspace3d.org/docs/online/manual/Event-System.html
+ * Using Crystal Space in general. The entire 'Using CS' chapter is very useful and you should browse through this to get an idea of what is there: http://www.crystalspace3d.org/docs/online/manual/Using-Crystal-Space.html
+
+= Basics of CEL =
+
+CEL is a game logic system on top of Crystal Space. Ares heavily uses CEL for game logic so it is important that you know a bit on CEL as well. Unfortunatelly the CEL manual is a bit outdated in some areas but most concepts are still useful:
+
+ * To learn about the various concepts defined by CEL you should read this: http://crystalspace3d.org/cel/docs/online/manual/Concepts.html
+ * More detailed information about most of the property classes can be found here: http://crystalspace3d.org/cel/docs/online/manual/Property-Classes.html
+
+= Basics of Ares =
+
+At TechDoc you can find some information about the basics of Ares. It is not 100% up-to-date but I hope to solve this soon.
