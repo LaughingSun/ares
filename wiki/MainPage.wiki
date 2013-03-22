@@ -45,3 +45,6 @@ Information below is not currently updated because the Ares game itself is curre
    * [AresWorldBuilding General World Building]: information on how to build worlds in Ares and the kinds of assets we need.
    * [ConceptArt Concept art]
    * [AssetList List of assets]: here is a list of all assets that we need and already have.
+
+ * Google Summer of Code
+   * [GSoC Ideas]
