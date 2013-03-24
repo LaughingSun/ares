@@ -1,3 +1,12 @@
 #summary GSoC Ideas
 
-Placeholder
+On this page various ideas for Google Summer of Code (see http://www.google-melange.com/gsoc/homepage/google/gsoc2013 for more information) are presented. If you have your own ideas you can of course also use these for your own project submission.
+
+
+= Entity Wizards =
+
+AresEd supports a graphical node-based editor where you can edit entity templates and quests by inserting nodes in a tree. This works fine but there are many patterns that appear again and again. It would be nice if AresEd had some kind of wizard system where common patterns can be easily generated using custom input from the user. These patterns/wizards should be defined in xml files so that it is easy to extend and add new wizards if needed. This task involves the following tasks:
+
+ * Define an XML syntax to describe wizards
+ * Define a user interface in WX where the user can control input for the wizards.
+ * Make code to generate the nodes based on this input
