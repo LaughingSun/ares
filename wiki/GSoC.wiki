@@ -21,3 +21,13 @@ AresEd already contains a non-functional foliage painting attempt. This task inv
 = Physics based Actor =
 
 AresEd currently already supports a physics based actor (using bullet plugin in CS) but this doesn't work very well in all situations. Recently Crystal Space got a new physics actor built-in into the new bullet2 physics plugin. The idea is to extend AresEd to support this new bullet2 plugin. This task will involve changing the CEL dynworld plugin to use the new bullet2 plugin.
+
+= Sound System =
+
+Make a system to manage sounds in AresEd games. There are basically three types of sounds that should be supported:
+
+ # Music
+ # Ambient sounds depending on environment
+ # Game related sounds (based on game actions)
+
+Sounds can be generally present or else tied to a specific 3D location or object. This task involves writing the UI for managing sounds in AresEd and adding support for sounds in the game logic itself.
