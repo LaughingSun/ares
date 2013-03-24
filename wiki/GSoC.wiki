@@ -38,8 +38,20 @@ There is already some support for ingame user interface. Specifically for invent
 
  * Define an XML system to define HUD elements.
  * Make a UI in WX to let the user define HUD elements in the editor.
- * Define game logic system to control the HUD elements from within game logic.
+ * Define a game logic system to control the HUD elements from within game logic.
 
 = CSEditor Framework =
 
 Investigate how the AresEd code base can move closer to the CSEditor framework in CS. See where the common areas are and how interfaces can be shared. As one proof of concept integrate the particle system editor from that framework so it becomes usable inside AresEd.
+
+= Shaders and Special Effects =
+
+Work on a shader and special effect editor. This involves at least the following subtasks:
+
+ * Define an XML system to define special effects.
+ * Make a UI in WX to let the user define special effects in the editor.
+ * Define a game logic system to control the special effects from within game logic.
+
+= Work on an NPC conversation system =
+
+Implement the NPC converstation system in CEL based on [NPCConversation]. Make a user interface in WX to edit conversations in AresEd.
