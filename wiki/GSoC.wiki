@@ -5,8 +5,19 @@ On this page various ideas for Google Summer of Code (see http://www.google-mela
 
 = Entity Wizards =
 
-AresEd supports a graphical node-based editor where you can edit entity templates and quests by inserting nodes in a tree. This works fine but there are many patterns that appear again and again. It would be nice if AresEd had some kind of wizard system where common patterns can be easily generated using custom input from the user. These patterns/wizards should be defined in xml files so that it is easy to extend and add new wizards if needed. This task involves the following tasks:
+AresEd supports a graphical node-based editor where you can edit entity templates and quests by inserting nodes in a tree. This works fine but there are many patterns that appear again and again. It would be nice if AresEd had some kind of wizard system where common patterns can be easily generated using custom input from the user. These patterns/wizards should be defined in xml files so that it is easy to extend and add new wizards if needed. This task involves the following subtasks:
 
  * Define an XML syntax to describe wizards
  * Define a user interface in WX where the user can control input for the wizards.
  * Make code to generate the nodes based on this input
+
+= Foliage and Decal Painter =
+
+AresEd already contains a non-functional foliage painting attempt. This task involves making a user interface and system to paint decals and foliage on the world and store that in the data files. With decals you have to keep in mind that there can be decals which are fixed to a location (and thus when objects move in/out of that location you must update the decal accordingly) and decals which are fixed to some object. This task involves the following subtasks:
+
+ * Find out how to store the decal information in the data file.
+ * Implement a nice userinterface in WX to implement this foliage and decal painting in realtime.
+
+= Physics based Actor =
+
+AresEd currently already supports a physics based actor (using bullet plugin in CS) but this doesn't work very well in all situations. Recently Crystal Space got a new physics actor built-in into the new bullet2 physics plugin. The idea is to extend AresEd to support this new bullet2 plugin. This task will involve changing the CEL dynworld plugin to use the new bullet2 plugin.
