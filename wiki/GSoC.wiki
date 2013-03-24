@@ -31,3 +31,11 @@ Make a system to manage sounds in AresEd games. There are basically three types 
  # Game related sounds (based on game actions)
 
 Sounds can be generally present or else tied to a specific 3D location or object. This task involves writing the UI for managing sounds in AresEd and adding support for sounds in the game logic itself.
+
+= Game User Interface System =
+
+There is already some support for ingame user interface. Specifically for inventory and context specific cursors. But more support is needed. It should be able to define HUD elements and let them interact with the game logic. This task involves the following subtasks:
+
+ * Define an XML system to define HUD elements.
+ * Make a UI in WX to let the user define HUD elements in the editor.
+ * Define game logic system to control the HUD elements from within game logic.
