@@ -46,11 +46,24 @@ Investigate how the AresEd code base can move closer to the CSEditor framework i
 
 = Shaders and Special Effects =
 
-Work on a shader and special effect editor. This involves at least the following subtasks:
+Work on a shader and special effect editor. Note that this does *not* mean a shader editor. That's another project. This involves at least the following subtasks:
 
+ * Define how special effects can be constructed out of objects, shaders, particle systems, ...
  * Define an XML system to define special effects.
  * Make a UI in WX to let the user define special effects in the editor.
  * Define a game logic system to control the special effects from within game logic.
+
+= Shader Editor =
+
+Write a realtime graphical shader editor in AresEd.
+
+= Python in-game Scripting =
+
+The idea in AresEd is to avoid programming as much as possible while making games. However there will always be situations where this is not possible. Especially if games start getting more powerful. For this situation AresEd should support attaching python scripts to game entities.
+
+= Python AresEd Scripting =
+
+Python could also be used to extend the AresEd editor itself. Think and design a system where it is possible to make AresEd extensions in Python itself.
 
 = Work on an NPC conversation system =
 
