@@ -23,7 +23,7 @@ To download and build CS you can use the following commands:
 
 {{{
 cd ?/projects
-svn co svn+ssh://jorrit@svn.code.sf.net/p/crystal/code/CS/trunk CS
+svn co svn://svn.code.sf.net/p/crystal/code/CS/trunk CS
 cd CS
 ./configure --enable-debug
 jam -j2
@@ -38,7 +38,7 @@ Then time for CEL:
 
 {{{
 cd ?/projects
-svn co svn+ssh://jorrit@svn.code.sf.net/p/cel/code/cel/trunk cel
+svn co svn://svn.code.sf.net/p/cel/code/cel/trunk cel
 cd cel
 export CRYSTAL=?/projects/CS
 ./configure --enable-debug
