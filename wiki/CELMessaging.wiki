@@ -1,0 +1,28 @@
+#summary CEL Messaging system explained
+
+= Introduction =
+
+CEL makes heavy usage of a message system for communcation between property classes. Using these messages everything is connected and game logic is defined.
+
+= Message Channels =
+
+The CEL message system is based on *message channels*. Message producers can send messages to channels and messages consumers can listen to specific channels.
+
+Messages are attributed with *message masks*. This is a string indicating what kind of message it is. A few masks which are already used in CEL are:
+  * _cel.input.mouselook_
+  * _cel.input.forward.up_
+  * _ares.controller.Examine_
+
+Every entity in CEL implements its own message channel. This is the most commonly found type of message channel although it is possible to make your own message channels that are not tied to an entity.
+
+= Property Classes =
+
+In the previous section we listed three example message masks.
+
+The first two are from CEL. These messages are sent by the input property class whenever it receives that kind of input from the mouse or keyboard. Some other property classes (like for example the movement property classes) will listen to these messages.
+
+The last example is implemented by the Ares game controller and can be used to examine an object.
+
+= Wiring Messages =
+
+Many property 
