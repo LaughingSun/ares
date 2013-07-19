@@ -64,6 +64,7 @@ cd ?/projects
 svn co https://ares.googlecode.com/svn/trunk ares
 cd ares
 export CEL=?/projects/cel
+export CSE=?/projects/CSEditing
 ./configure --enable-debug
 jam -j2
 }}}
