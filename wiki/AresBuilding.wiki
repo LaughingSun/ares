@@ -34,6 +34,17 @@ Check the output of configure. At the end it says which modules it couldn't find
 
 If all went well you should now have a working version of Crystal Space.
 
+In addition to CS you also need the CSEditing framework:
+
+{{{
+cd ?/projects
+svn co svn://svn.code.sf.net/p/crystal/code/CSEditing/trunk CSEditing
+cd CSEditing
+./configure --enable-debug
+jam -j2
+}}}
+
+
 Then time for CEL:
 
 {{{
