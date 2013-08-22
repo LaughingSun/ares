@@ -12,7 +12,7 @@ http://s16.postimg.org/k3a5zitfo/grid_template_editor.jpg
 
 The main 3D view with new toolbar and overlay help for keyboard shortcuts:
 
-http://s22.postimg.org/evymozfao/aresed_mainview.jpg
+http://ares.googlecode.com/svn/wiki/aresed_mainview.jpg
 
 = Recent Screenshots =
 
