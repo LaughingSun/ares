@@ -8,7 +8,7 @@ In this page you can find screenshots of the Ares Editor in development.
 
 The new entity editor based on the property grid:
 
-http://s16.postimg.org/k3a5zitfo/grid_template_editor.jpg
+http://ares.googlecode.com/svn/wiki/grid_template_editor.jpg
 
 The main 3D view with new toolbar and overlay help for keyboard shortcuts:
 
